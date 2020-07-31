@@ -4,7 +4,7 @@ const app = express();
 var server = http.createServer(app);
 
 app.get('/', function(req, res){
-    res.send('I like u27-killallnode-dontkill');
+    res.send('I like u27-stopnode-dontkill');
 });
 
 app.get('/start', function(req, res){
